@@ -5,6 +5,6 @@ class ApplicationController < ActionController::Base
 
   # make it say "hello" just for initial Heroku deployment
   def hello
-  	render :text "Hello again, world!"
+  	render text: "Hello again, world!"
   end
 end
